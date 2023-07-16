@@ -176,7 +176,7 @@ color:#727272;
     padding:2.2rem;
 }
 .sponspors-info{
-    width:30rem;
+    max-width:30rem;
     margin:auto;
     text-align: center;
 }
