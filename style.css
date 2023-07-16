@@ -213,7 +213,6 @@ footer p {
   color: #424242;
   font-weight: 400;
 }
-
 /* Small & Medium  Device */
 @media screen and (max-width: 768px) {
   .nav-bar {
@@ -273,4 +272,33 @@ footer p {
   .sponspors-img-container img {
     width: 6rem;
   }
+}
+/* Large Device */
+@media screen and (max-width:992px){
+    .feature-container{
+        flex-direction: column;
+    }
+    .experience-section{
+        flex-direction: column;
+    }
+    .experience-badge-container {
+        width: 15rem;
+        position: static;
+      }
+      .sponspors-img-container{
+        flex-direction: column;
+      }
+      .facts-card-container{
+        flex-direction: column;
+        gap:2rem;
+      }
+      .nav-bar {
+        padding: 1rem 2rem;
+      }
+      .sponspors-img-container {
+        gap: 2rem;
+      }
+      .sponspors-img-container img {
+        width: 9rem;
+      }
 }
